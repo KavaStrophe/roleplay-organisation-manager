@@ -1,0 +1,217 @@
+html, body{
+    height:100%;
+}
+body
+{
+	background-color:#36393E;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:white;
+}
+
+/********************************
+	En-tête
+*******************************/
+h1
+{
+	vertical-align:middle;
+	margin-left:30px;
+	margin-top:15px;
+	margin-bottom:15px;
+	font-weight: bold;
+	font-size:25px;
+	cursor:pointer;
+	display:inline-block;
+}
+header
+{
+	height:56px;
+	background-color:#1c1e21;
+	color: #FF9000;
+	position: relative;
+}
+nav
+{
+	background-color:#282B30;
+}
+.navbar
+{
+	margin-bottom:0px;
+	border-radius:0px;
+}
+.navbar a
+{
+	color:white;
+}
+.navbar li > a:hover, .navbar li > a:focus
+{
+	background-color:#26282b;
+}
+
+ .nav .open > a, .nav .open > a:hover, .nav .open > a:focus
+ {
+ 	background-color: #26282b;
+ }
+ .dropdown-menu
+ {
+ 	background-color: #282B30;
+ }
+ .dropdown-menu > li > a,  .dropdown-menu > li > a:hover
+ {
+    padding-top: 10px;
+    padding-bottom: 10px;
+ 	color:white;
+ }
+ .button-header
+ {
+ 	background-color:#282B30;
+ 	padding:7px 10px 7px 10px;
+ 	border-radius: 10px;
+ 	display:inline-block;
+    margin-top: 9px;
+    cursor:pointer;
+    margin-right:3px;
+    min-width: 40px;
+    max-width: 40px;
+ }
+ .button-header:hover
+ {
+ 	background-color: #24272b;
+ }
+ .header-buttons
+ {
+ 	height:56px;
+ 	text-align:right;
+ }
+ .button-header:last-of-type
+ {
+ 	margin-right:20px;
+ }
+ .button-header .fa
+ {
+ 	font-size:22px;
+ 	color:white;
+ 	display:inline-block;
+ }
+ /**********************************
+ 	Contenu
+ **********************************/
+ .content
+ {
+ 	margin-top:20px;
+ }
+ .error
+ {
+    background-color: #bb0707;
+ }
+ .message::before{
+ 	content: "\f06a";
+ 	color:white;
+    font-family: FontAwesome;
+    margin-right:10px;
+    margin-left:10px;
+ }
+ .message
+ {
+    padding: 10px;
+    cursor:pointer;
+    font-size: 16px;
+ }
+ .success{
+ 	background-color: #0c750c;
+ }
+ 
+ /**********************************
+ 	Formulaires
+ **********************************/
+ form
+ {
+ 	display: inline-block;
+ 	width: auto;
+ 	vertical-align:top;
+ 	margin-bottom: 20px;
+ }
+ fieldset
+ {
+ 	border:1px solid #808080;
+ 	border-radius:4px;
+ 	padding:20px;
+ 	margin-bottom:5px;
+ 	width: 100%;
+ }
+ legend{
+ 	color:white;
+	display:inline-block;
+	width: auto;
+	padding-right:20px;
+	padding-left:5px;
+	border-bottom:0px;
+	margin-bottom:0px;
+  	font-variant: small-caps;
+ }
+ p > button 
+ {
+    padding: 5px;
+    padding-left: 8px;
+    padding-right: 9px;
+ }
+ button
+ {
+ 	background-color: #212429;
+ 	padding:10px;
+ 	border: 0px;
+ 	border-radius:4px;
+ 	margin-top:5px;
+ 	margin-bottom:5px;
+ 	margin-left:10px;
+ }
+ button:hover, 
+ button:focus,
+ button:active
+ {
+ 	background-color: #282B30;
+ }
+ label{
+ 	cursor:pointer;
+ 	display:inline-block;
+ 	min-width:calc(100% - 200px);
+ 	margin-top:5px;
+ 	margin-bottom: 5px;
+ 	padding-right: 10px;
+ }
+ label::after{
+ 	content: ' : ';
+ }
+ input{
+ 	padding:3px;
+ 	border-radius:3px;
+ 	background-color: #282B30;
+ 	margin-top:3px;
+ 	margin-bottom:3px;
+ 	border-color: #272d35;
+ 	width:200px;
+ }
+input[type="checkbox"],  input[type="radio"]{
+ 	width:auto;
+}
+input[type="radio"]
+{
+    margin: 0;
+    margin-bottom: 2px;
+    margin-left:15px;
+}
+input.radio
+{
+	display:inline-block;
+	width:auto;
+	margin-right:4px;
+	vertical-align:middle;
+}
+.radioLabel::after
+{
+	content: "";
+}
+.radioLabel
+{
+	min-width:auto;
+	padding-left:10px;
+}
